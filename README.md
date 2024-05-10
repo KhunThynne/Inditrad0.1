@@ -1,0 +1,1 @@
+ระบบ Trade binance

@@ -2,6 +2,7 @@ import asyncio
 import time
 from binance.client import AsyncClient,Client
 import pandas as pd
+
 from services import Manage_dataset
 
 
@@ -13,9 +14,11 @@ if __name__ == "__main__":
     
     # dataset = pd.DataFrame.from_dict(dataset)
     # print(dataset)
-    symbol = 'AXLUSDT'
+    # symbol = 'AXLUSDT'
     
-    coin_data = manage_data.get_binance_data(symbol=symbol)
+    # coin_data = manage_data.get_binance_data(symbol=symbol)
     
-    print(coin_data)
+    # print(coin_data)
+    
+    
     pass
