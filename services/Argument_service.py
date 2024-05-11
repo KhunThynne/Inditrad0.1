@@ -6,7 +6,7 @@ import argparse
 #     # parser.add_argument(f'-t', f'--test', default=default, help=help_description,required=False)
 
 
-class argument_Set():
+class argument_Set:
     def __init__(self, description:str="My programe argument.", prog:str="", epilog: str = "") -> None:
         self.parser = argparse.ArgumentParser(
             description=description, prog=prog, epilog=epilog)
